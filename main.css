@@ -1,0 +1,261 @@
+/* General */
+.fixed-top {
+   z-index: 1000 !important;
+}
+
+body {
+   overflow-x: hidden;
+   font-family: 'Poppins', sans-serif;
+   background-color: #090b3b;
+}
+
+section.header {
+   background-color: transparent;
+   padding: 50px 0;
+   color: #fafafa;
+   position: relative;
+}
+
+section {
+   background-color: #fafafa;
+   color: #090b3b;
+   padding: 50px 0;
+}
+
+.btn {
+   background-color: coral;
+   color: white;
+   border: 2px solid transparent;
+   border-radius: 6px;
+   z-index: 2 !important;
+}
+
+.btn:hover {
+   border: 2px solid white;
+   background-color: #090b3b;
+   color: white;
+}
+
+.fas,
+.fab {
+   font-size: 1.8em;
+   margin-top: -25px;
+}
+
+/* Header */
+
+.navbar {
+   background-color: transparent;
+   box-shadow: 0 2px 15px rgba(9, 11, 59, .3);
+   transition: .3s;
+   z-index: 1030 !important;
+}
+
+.navbar-brand {
+   font-size: 1.6em;
+}
+
+.navbar-toggler span {
+   filter: invert(0);
+}
+
+.navbar-nav .nav-link {
+   font-size: 1.2em;
+}
+
+.dropdown-item:active {
+   color: black;
+   background-color: #ececec;
+}
+
+.dropdown-menu a:hover {
+   background-color: #da653b;
+}
+
+
+#navbarNavDropdown {
+   background-color: #ff7f50 !important;
+   border-radius: 10px;
+}
+
+.jumbotron {
+   background-color: transparent;
+}
+
+/* Biodata */
+.biodata h2 {
+   font-weight: bold;
+}
+
+/* Skill */
+.skill .caption {
+   color: #090b3b;
+   font-weight: 600;
+}
+
+.skill .caption h2 {
+   font-size: 2.6em;
+}
+
+.skill .card {
+   background-color: #090b3b;
+   color: #fafafa;
+   transition: .4s;
+}
+
+.skill .card:hover {
+   transform: scale(1.05);
+   box-shadow: 4px 4px 8px rgba(9, 11, 59, .4);
+}
+
+
+/* Work */
+.work .card {
+   background-color: #fafafa;
+   color: #090b3b;
+   transition: .4s;
+   z-index: 1;
+}
+
+.work .card:hover {
+   transform: scale(1.05);
+   box-shadow: 4px 4px 8px rgba(250, 250, 250, .2);
+}
+
+.work .caption {
+   font-weight: 600;
+}
+
+.work .card-text {
+   font-size: 14px;
+}
+
+
+/* Contact */
+.form-control {
+   border: 1px solid #090b3b;
+}
+
+
+/* Particles */
+.particles-js-canvas-el {
+   position: absolute;
+   top: 0;
+   z-index: 1;
+}
+
+/* 
+.lightwidget-widget {
+   width: 85%;
+   border-radius: 10px;
+   margin: 0 auto;
+}
+ */
+
+
+/* Responsive Breakpoint */
+@media (min-width: 300px) {
+   .col.mb-4 {
+      padding: 0 40px;
+   }
+
+   .card-columns {
+      column-count: 2;
+   }
+}
+
+@media (min-width: 576px) {
+   .col.mb-4 {
+      padding: 0 15px;
+   }
+
+   .card-columns {
+      column-count: 3;
+   }
+
+   .work .card-text {
+      font-size: 16px;
+   }
+}
+
+@media (min-width: 768px) {
+   #navbarNavDropdown {
+      background-color: transparent !important;
+      border-radius: 0;
+   }
+
+   .card-columns {
+      column-count: 4;
+   }
+}
+
+@media (min-width: 992px) {
+   .card-columns {
+      column-count: 4;
+   }
+}
+
+@media (min-width: 1200px) {
+   .card-columns {
+      column-count: 5;
+   }
+}
+
+
+.custom-shape-divider-bottom-1606792675 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1606792675 svg {
+   position: relative;
+   display: block;
+   width: calc(100% + 1.3px);
+   height: 92px;
+}
+
+.custom-shape-divider-bottom-1606792675 .shape-fill {
+   fill: #FAFAFA;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+   .custom-shape-divider-bottom-1606792675 svg {
+      width: calc(100% + 1.3px);
+      height: 36px;
+   }
+}
+
+
+.custom-shape-divider-top-1606793520 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+}
+
+.custom-shape-divider-top-1606793520 svg {
+   position: relative;
+   display: block;
+   width: calc(100% + 1.3px);
+   height: 92px;
+}
+
+.custom-shape-divider-top-1606793520 .shape-fill {
+   fill: #fafafa;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+   .custom-shape-divider-top-1606793520 svg {
+      width: calc(100% + 1.3px);
+      height: 36px;
+   }
+}
