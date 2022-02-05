@@ -151,7 +151,7 @@ section {
 /* Responsive Breakpoint */
 @media (min-width: 300px) {
   .col.mb-4 {
-    padding: 0 40px;
+    padding: 0 1rem;
   }
 
   .card-columns {
